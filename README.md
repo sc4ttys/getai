@@ -5,11 +5,13 @@ This lets me either send quick single queries, or open a conversation mode.
 
 ## Operation modes
 1. Single Query Mode
-This is the default mode. 
+
+	This is the default mode. 
 The usage is 'getai "your query"', e.g. '"getai why is the sky blue?"' 
 Optional argument is -m or --model, to specify which model to use. 
 
 2. Conversation mode 
+
 Full screen back-and-forth conversation mode. 
 Activated with 'getai -f' or --full. 
 Provides chat-like interface but queries will not be linked together. 
