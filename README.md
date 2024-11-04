@@ -6,14 +6,14 @@ This lets me either send quick single queries, or open a conversation mode.
 ## Operation modes
 1. Single Query Mode
 
-	This is the default mode. \n
-	The usage is 'getai "your query"', e.g. '"getai why is the sky blue?"' 
+	This is the default mode. <br />
+	The usage is 'getai "your query"', e.g. '"getai why is the sky blue?"' <br /> 
 	Optional argument is -m or --model, to specify which model to use. 
 
 2. Conversation mode 
 
-	Full screen back-and-forth conversation mode. 
-	Activated with 'getai -f' or --full. 
+	Full screen back-and-forth conversation mode. <br />
+	Activated with 'getai -f' or --full. <br />
 	Provides chat-like interface but queries will not be linked together. 
 
 
@@ -27,6 +27,5 @@ Change the variables on lines 6-8:
 	PORT = <your port>
 
 
-Make sure to have argparse, requests and colorama installed. 
-
+Make sure to have argparse, requests and colorama installed.  <br />
 Optionally add it to your path so you can call it from anywhere. 
